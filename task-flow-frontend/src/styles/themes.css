@@ -1,0 +1,21 @@
+.dark {
+  --bg-primary: #0c0a09;
+  --bg-secondary: #1c1917;
+  --text-primary: #fafaf9;
+  --text-secondary: #d6d3d1;
+  --accent: #fbbf24;
+  --accent-hover: #f59e0b;
+  --accent-light: rgba(251, 191, 36, 0.1);
+  --border: #292524;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 16px -2px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 12px 32px -8px rgba(0, 0, 0, 0.4);
+}
+
+html.light {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
